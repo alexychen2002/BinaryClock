@@ -40,7 +40,7 @@ public class Window implements ActionListener{
     JPanel hourLabelPanel = new JPanel(new GridLayout(4,2));
     JPanel minuteLabelPanel = new JPanel(new GridLayout(4,2));
     JPanel secondLabelPanel = new JPanel(new GridLayout(4,2));
-    JButton addSeconds = new JButton("Add a second");
+    JButton addSeconds = new JButton("Start/Stop");
     JLabel hoursLabel = new JLabel("Hours");
     JLabel minutesLabel = new JLabel("Minutes");
     JLabel secondsLabel = new JLabel("Seconds");
